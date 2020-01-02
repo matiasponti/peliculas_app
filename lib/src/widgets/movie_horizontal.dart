@@ -33,7 +33,6 @@ class MovieHorizontal extends StatelessWidget {
         pageSnapping: false,
         controller: _pageController,
         itemCount: peliculas.length,
-        //children: _tarjetas(context),
         itemBuilder: (context, i) =>_tarjeta(context, peliculas[i]),
       ),
     );
